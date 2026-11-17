@@ -1,0 +1,3 @@
+ource .venv/bin/activate
+dbt --version
+dbt init --skip-profile-setup airbnb
