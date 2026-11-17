@@ -1,3 +1,6 @@
-ource .venv/bin/activate
+source .venv/bin/activate
 dbt --version
 dbt init --skip-profile-setup airbnb
+dbt debug
+dbt run
+dbt run --full-refresh
